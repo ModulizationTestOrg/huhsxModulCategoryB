@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'huhsxModulCategoryB_Example' do
+  pod 'huhsxModulCategoryB', :path => '../'
+
+  target 'huhsxModulCategoryB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
