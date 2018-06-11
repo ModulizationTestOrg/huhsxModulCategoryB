@@ -1,0 +1,22 @@
+{
+  "name": "huhsxModulCategoryB",
+  "version": "0.1.0",
+  "summary": "A short description of huhsxModulCategoryB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huhaosanxiong/huhsxModulCategoryB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huhaosanxiong": "931644603@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/huhaosanxiong/huhsxModulCategoryB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "huhsxModulCategoryB/Classes/**/*"
+}
