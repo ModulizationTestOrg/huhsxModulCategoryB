@@ -23,6 +23,8 @@
 		A961BCBCB6FBE9AA82F2C4983D6BF837 /* overwatch-genji-mecha-armored.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 139395EBDEF85945B57DBF9A5072EFB0 /* overwatch-genji-mecha-armored.jpg */; };
 		B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */; };
 		BB3D8544B931A68C2F7F332561EC14B2 /* Pods-huhsxModulCategoryB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1DF6259CBF8F5A97B0CC21F3EAB9C9 /* Pods-huhsxModulCategoryB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E11EAFC420CE68EB000B19F1 /* CTMediator+ModulB.h in Headers */ = {isa = PBXBuildFile; fileRef = E11EAFC220CE68EB000B19F1 /* CTMediator+ModulB.h */; };
+		E11EAFC520CE68EB000B19F1 /* CTMediator+ModulB.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EAFC320CE68EB000B19F1 /* CTMediator+ModulB.m */; };
 		E4B6E72A6D765CBE6DEDE73B34F63EAD /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */; };
 		F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */; };
 /* End PBXBuildFile section */
@@ -53,18 +55,18 @@
 
 /* Begin PBXFileReference section */
 		12FBB8DE13A4DB6D91406EF830E53FA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		139395EBDEF85945B57DBF9A5072EFB0 /* overwatch-genji-mecha-armored.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = "overwatch-genji-mecha-armored.jpg"; path = "huhsxModulCategoryB/Classes/overwatch-genji-mecha-armored.jpg"; sourceTree = "<group>"; };
+		139395EBDEF85945B57DBF9A5072EFB0 /* overwatch-genji-mecha-armored.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = "overwatch-genji-mecha-armored.jpg"; path = "huhsxModulCategoryB/Classes/overwatch-genji-mecha-armored.jpg"; sourceTree = "<group>"; };
 		141D359A15952775F63D269D621BCFF5 /* Pods-huhsxModulCategoryB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huhsxModulCategoryB_Example.modulemap"; sourceTree = "<group>"; };
 		15E728B8D7EBAF6E32B137EBFB545606 /* Pods-huhsxModulCategoryB_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulCategoryB_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B24FF8FD4A4A0C1C2E13FAC47C47A84 /* Pods-huhsxModulCategoryB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huhsxModulCategoryB_Example-dummy.m"; sourceTree = "<group>"; };
 		1DE349A9FC0C650ACD713A12C5963C50 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = huhsxModulCategoryB/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		251C9E9C35E064E87F418365B1D7631C /* huhsxModulCategoryB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulCategoryB-umbrella.h"; sourceTree = "<group>"; };
-		2549C13AC845301D7D67B845A2523075 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3078071600F8DF8BDB91C55DFF281F7A /* Pods_huhsxModulCategoryB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_huhsxModulCategoryB_Example.framework; path = "Pods-huhsxModulCategoryB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2549C13AC845301D7D67B845A2523075 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3078071600F8DF8BDB91C55DFF281F7A /* Pods_huhsxModulCategoryB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huhsxModulCategoryB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30929B993C7AEBEF9032781FD7279897 /* huhsxModulCategoryB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = huhsxModulCategoryB.modulemap; sourceTree = "<group>"; };
 		31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		334F3B96082FDF8DDE2732B29A2FB893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47858C47CF1AFD173713239BCF81EDB1 /* huhsxModulCategoryB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = huhsxModulCategoryB.framework; path = huhsxModulCategoryB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47858C47CF1AFD173713239BCF81EDB1 /* huhsxModulCategoryB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = huhsxModulCategoryB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492F969682C116E07A75939CBC34F419 /* huhsxModulCategoryB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulCategoryB-prefix.pch"; sourceTree = "<group>"; };
 		4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
@@ -76,14 +78,14 @@
 		7CDC8455DE04C076D29D86E30EAA1FEE /* Pods-huhsxModulCategoryB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulCategoryB_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7CFC220FD821E74AB3C2B75608BD8A19 /* Pods-huhsxModulCategoryB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huhsxModulCategoryB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88800391D706DFD4C22A691C3AD5F959 /* Pods-huhsxModulCategoryB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulCategoryB_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93E39D680F07EF2C8A824AD4BE0E7E4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E39D680F07EF2C8A824AD4BE0E7E4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9732ED4472D15505D98391834CF94281 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D1DF6259CBF8F5A97B0CC21F3EAB9C9 /* Pods-huhsxModulCategoryB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huhsxModulCategoryB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BED5ED2424392EA86480465AD716C400 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		C348F9A8CC4B0324A2CC2E6DFF916149 /* Pods_huhsxModulCategoryB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_huhsxModulCategoryB_Tests.framework; path = "Pods-huhsxModulCategoryB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C348F9A8CC4B0324A2CC2E6DFF916149 /* Pods_huhsxModulCategoryB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huhsxModulCategoryB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8A7FFFD8E4DF889BE9E0DE74B12BF /* Pods-huhsxModulCategoryB_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulCategoryB_Tests-resources.sh"; sourceTree = "<group>"; };
 		CC7FB96B02B913F14A75D1FCC520D3CD /* Pods-huhsxModulCategoryB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulCategoryB_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CE759640FD9A50EEE4A8F847972ABC56 /* huhsxModulCategoryB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = huhsxModulCategoryB.xcconfig; sourceTree = "<group>"; };
@@ -91,12 +93,14 @@
 		D1CF98740ADF47DEADE936B5FD0C9AB1 /* Pods-huhsxModulCategoryB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huhsxModulCategoryB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA211C00C7F816E93D1FC6068B547770 /* Pods-huhsxModulCategoryB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulCategoryB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DFF5C79C292B9621F8AB3469951DF762 /* Pods-huhsxModulCategoryB_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulCategoryB_Example-resources.sh"; sourceTree = "<group>"; };
+		E11EAFC220CE68EB000B19F1 /* CTMediator+ModulB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ModulB.h"; path = "huhsxModulCategoryB/Classes/CTMediator+ModulB.h"; sourceTree = "<group>"; };
+		E11EAFC320CE68EB000B19F1 /* CTMediator+ModulB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ModulB.m"; path = "huhsxModulCategoryB/Classes/CTMediator+ModulB.m"; sourceTree = "<group>"; };
 		E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		E4E4DABC5094633FFD7434695DE043A7 /* Pods-huhsxModulCategoryB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huhsxModulCategoryB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E8670520C2A2046BF4986FEBEB66773D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E8670520C2A2046BF4986FEBEB66773D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		EBEAC56B74C55420908E07B00A922301 /* Pods-huhsxModulCategoryB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huhsxModulCategoryB_Tests-dummy.m"; sourceTree = "<group>"; };
-		EF533B85D787F0090F8D3F3A6370C1D0 /* huhsxModulCategoryB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = huhsxModulCategoryB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF533B85D787F0090F8D3F3A6370C1D0 /* huhsxModulCategoryB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = huhsxModulCategoryB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5544DA8FC76D71D33F30E878BB9757E /* Pods-huhsxModulCategoryB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulCategoryB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -178,6 +182,8 @@
 			children = (
 				139395EBDEF85945B57DBF9A5072EFB0 /* overwatch-genji-mecha-armored.jpg */,
 				1DE349A9FC0C650ACD713A12C5963C50 /* ReplaceMe.m */,
+				E11EAFC220CE68EB000B19F1 /* CTMediator+ModulB.h */,
+				E11EAFC320CE68EB000B19F1 /* CTMediator+ModulB.m */,
 				8090B0B0C4F9871DACE1FB6FCB084B73 /* Pod */,
 				C67CEE41BD18625BBADEEC43DB0CCCBA /* Support Files */,
 			);
@@ -192,7 +198,6 @@
 				BED5ED2424392EA86480465AD716C400 /* CTMediator.m */,
 				D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -309,6 +314,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11EAFC420CE68EB000B19F1 /* CTMediator+ModulB.h in Headers */,
 				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
 				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
 			);
@@ -464,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11EAFC520CE68EB000B19F1 /* CTMediator+ModulB.m in Sources */,
 				F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */,
 				1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */,
 			);
