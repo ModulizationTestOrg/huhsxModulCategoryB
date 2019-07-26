@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CTMediator+ModulB.h"
 
 FOUNDATION_EXPORT double huhsxModulCategoryBVersionNumber;
 FOUNDATION_EXPORT const unsigned char huhsxModulCategoryBVersionString[];

@@ -1,13 +1,13 @@
 PODS:
   - CTMediator (18)
-  - huhsxModulCategoryB (1):
+  - huhsxModulCategoryB (2):
     - CTMediator
 
 DEPENDENCIES:
   - huhsxModulCategoryB (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - CTMediator
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
-  huhsxModulCategoryB: ad6f118e961a4a06f78421683d61c15adb43aab8
+  huhsxModulCategoryB: c97ab5dba44af06e667370a93e70a4fef3907df6
 
 PODFILE CHECKSUM: 83aa7004a5952c1dbbf5c3ba02f337fc17b04c83
 
-COCOAPODS: 1.5.0.beta.1
+COCOAPODS: 1.6.1
